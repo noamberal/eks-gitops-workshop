@@ -4,6 +4,7 @@ metadata:
   name: nginx
 spec:
   releaseName: nginx-ingress-controller
+  targetNamespace: non-existent-namespace
   chart:
     spec:
       chart: nginx-ingress-controller
